@@ -1,0 +1,15 @@
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\bin\Debug\net6.0\Unique_Identifier.exe
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\bin\Debug\net6.0\Unique_Identifier.deps.json
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\bin\Debug\net6.0\Unique_Identifier.runtimeconfig.json
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\bin\Debug\net6.0\Unique_Identifier.dll
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\bin\Debug\net6.0\Unique_Identifier.pdb
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.csproj.AssemblyReference.cache
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.AssemblyInfoInputs.cache
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.AssemblyInfo.cs
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.csproj.CoreCompileInputs.cache
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.dll
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\refint\Unique_Identifier.dll
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.pdb
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\Unique_Identifier.genruntimeconfig.cache
+D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program2\Unique_Identifier\obj\Debug\net6.0\ref\Unique_Identifier.dll
