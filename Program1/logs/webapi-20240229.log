@@ -1,0 +1,259 @@
+2024-02-29 22:28:23.601 +05:30  INF  In constructor
+2024-02-29 22:28:24.265 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 22:28:24.286 +05:30  INF  StockDataReader background service is starting
+2024-02-29 22:48:21.261 +05:30  INF  In constructor
+2024-02-29 22:48:21.339 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 22:48:21.347 +05:30  INF  StockDataReader background service is starting
+2024-02-29 22:48:21.833 +05:30  INF  Now listening on: https://localhost:7154
+2024-02-29 22:48:21.835 +05:30  INF  Now listening on: http://localhost:5252
+2024-02-29 22:48:21.837 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-02-29 22:48:21.837 +05:30  INF  Hosting environment: Development
+2024-02-29 22:48:21.839 +05:30  INF  Content root path: D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program1\StockDataAPI\
+2024-02-29 22:48:22.443 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/index.html - -
+2024-02-29 22:48:23.910 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - -
+2024-02-29 22:48:23.925 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/index.html - - - 200 - text/html;charset=utf-8 1489.3899ms
+2024-02-29 22:48:23.928 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 18.5151ms
+2024-02-29 22:48:23.959 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - -
+2024-02-29 22:48:24.044 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.9365ms
+2024-02-29 22:48:24.322 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - -
+2024-02-29 22:48:24.915 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 592.6264ms
+2024-02-29 22:50:34.424 +05:30  INF  In constructor
+2024-02-29 22:50:34.501 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 22:50:34.508 +05:30  INF  StockDataReader background service is starting
+2024-02-29 22:53:39.734 +05:30  INF  In constructor
+2024-02-29 22:53:39.778 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 22:53:39.783 +05:30  INF  StockDataReader background service is starting
+2024-02-29 22:53:39.890 +05:30  INF  Now listening on: https://localhost:7154
+2024-02-29 22:53:39.891 +05:30  INF  Now listening on: http://localhost:5252
+2024-02-29 22:53:39.893 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-02-29 22:53:39.894 +05:30  INF  Hosting environment: Development
+2024-02-29 22:53:39.894 +05:30  INF  Content root path: D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program1\StockDataAPI\
+2024-02-29 22:53:40.216 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/index.html - -
+2024-02-29 22:53:40.415 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/index.html - - - 200 - text/html;charset=utf-8 202.4026ms
+2024-02-29 22:53:40.428 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - -
+2024-02-29 22:53:40.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 4.2221ms
+2024-02-29 22:53:40.443 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - -
+2024-02-29 22:53:40.470 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.7347ms
+2024-02-29 22:53:40.716 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - -
+2024-02-29 22:53:40.821 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.8918ms
+2024-02-29 22:55:04.795 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:04.960 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:04.991 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:04.994 +05:30  INF  In constructor
+2024-02-29 22:55:05.015 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:05.017 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:05.019 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:05.020 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:05.030 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:05.039 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 38.7207ms
+2024-02-29 22:55:05.042 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:05.044 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 248.5658ms
+2024-02-29 22:55:14.406 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:14.410 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:14.412 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:14.418 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:14.422 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:14.423 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:14.425 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:14.431 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:14.434 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 16.9181ms
+2024-02-29 22:55:14.436 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:14.438 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 31.4025ms
+2024-02-29 22:55:15.721 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:15.726 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:15.727 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:15.731 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:15.733 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:15.734 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:15.734 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:15.735 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:15.737 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 6.7731ms
+2024-02-29 22:55:15.738 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:15.741 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 19.0229ms
+2024-02-29 22:55:15.884 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:15.887 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:15.890 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:15.893 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:15.894 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:15.895 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:15.896 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:15.897 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:15.899 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 6.2972ms
+2024-02-29 22:55:15.900 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:15.901 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 16.6085ms
+2024-02-29 22:55:16.029 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.031 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.033 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.039 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.043 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.044 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.045 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.048 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.049 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 10.7086ms
+2024-02-29 22:55:16.050 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.051 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 22.4444ms
+2024-02-29 22:55:16.192 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.194 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.196 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.199 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.200 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.201 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.202 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.209 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.212 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 13.4545ms
+2024-02-29 22:55:16.215 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.217 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 24.7082ms
+2024-02-29 22:55:16.330 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.333 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.336 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.340 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.342 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.346 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.348 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.350 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.352 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 13.7933ms
+2024-02-29 22:55:16.354 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.357 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 26.5108ms
+2024-02-29 22:55:16.486 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.488 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.490 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.493 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.494 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.495 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.496 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.500 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.502 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 9.0264ms
+2024-02-29 22:55:16.504 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.506 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 19.5332ms
+2024-02-29 22:55:16.630 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.632 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.634 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.637 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.638 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.640 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.641 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.645 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.649 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 12.429ms
+2024-02-29 22:55:16.651 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.653 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 22.7783ms
+2024-02-29 22:55:16.772 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.775 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.777 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.779 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.779 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.780 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.782 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.784 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.787 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 8.6556ms
+2024-02-29 22:55:16.790 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.792 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 19.9835ms
+2024-02-29 22:55:16.910 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:16.912 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.915 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:16.920 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.925 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:16.928 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:16.931 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:16.932 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:16.933 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 14.5895ms
+2024-02-29 22:55:16.935 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:16.936 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 26.7091ms
+2024-02-29 22:55:17.077 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.078 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.080 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.083 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.084 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.085 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.091 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.094 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.097 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 14.6372ms
+2024-02-29 22:55:17.099 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.100 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 23.5551ms
+2024-02-29 22:55:17.222 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.223 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.230 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.234 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.235 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.236 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.236 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.238 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.240 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 5.9327ms
+2024-02-29 22:55:17.242 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.244 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 22.6258ms
+2024-02-29 22:55:17.367 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.369 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.371 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.374 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.375 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.376 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.376 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.377 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.379 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 5.3725ms
+2024-02-29 22:55:17.383 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.385 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 17.0930ms
+2024-02-29 22:55:17.514 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.516 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.518 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.523 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.524 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.525 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.528 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.531 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.533 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 10.9428ms
+2024-02-29 22:55:17.534 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.535 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 21.1616ms
+2024-02-29 22:55:17.675 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.676 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.678 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.680 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.681 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.682 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.682 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.683 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.686 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 5.7008ms
+2024-02-29 22:55:17.690 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.692 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 17.4611ms
+2024-02-29 22:55:17.835 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:17.837 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.839 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:17.842 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.844 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:17.845 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:17.847 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:17.849 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:17.850 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 8.1371ms
+2024-02-29 22:55:17.851 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:17.852 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 16.7061ms
+2024-02-29 22:55:18.053 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - -
+2024-02-29 22:55:18.058 +05:30  INF  Executing endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:18.060 +05:30  INF  Route matched with {action = "GetLatestPrice", controller = "StockData"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLatestPrice(System.String) on controller StockDataAPI.Controllers.StockDataController (StockDataAPI).
+2024-02-29 22:55:18.063 +05:30  INF  Received symbol: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:18.067 +05:30  INF  Retrieving data for symbol: "BANKNIFTY04AUG2236000CE", Type: System.String
+2024-02-29 22:55:18.068 +05:30  INF  Symbol not found, return null
+2024-02-29 22:55:18.072 +05:30  WRN  Symbol not found: "BANKNIFTY04AUG2236000CE"
+2024-02-29 22:55:18.074 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-02-29 22:55:18.077 +05:30  INF  Executed action StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI) in 13.7708ms
+2024-02-29 22:55:18.080 +05:30  INF  Executed endpoint 'StockDataAPI.Controllers.StockDataController.GetLatestPrice (StockDataAPI)'
+2024-02-29 22:55:18.082 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/api/StockData/"BANKNIFTY04AUG2236000CE" - - - 404 - text/plain;+charset=utf-8 28.8808ms
+2024-02-29 22:55:56.817 +05:30  INF  In constructor
+2024-02-29 22:55:56.956 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 22:55:56.970 +05:30  INF  StockDataReader background service is starting
+2024-02-29 23:22:02.978 +05:30  INF  In constructor
+2024-02-29 23:22:03.085 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 23:22:03.094 +05:30  INF  StockDataReader background service is starting
+2024-02-29 23:25:34.571 +05:30  INF  In constructor
+2024-02-29 23:25:34.654 +05:30  INF  User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-29 23:25:34.663 +05:30  INF  StockDataReader background service is starting
+2024-02-29 23:25:35.130 +05:30  INF  Now listening on: https://localhost:7154
+2024-02-29 23:25:35.132 +05:30  INF  Now listening on: http://localhost:5252
+2024-02-29 23:25:35.138 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-02-29 23:25:35.139 +05:30  INF  Hosting environment: Development
+2024-02-29 23:25:35.140 +05:30  INF  Content root path: D:\QuantXpress_Assessment\QuantXpress-Tech-Assessment-\Program1\StockDataAPI\
+2024-02-29 23:25:35.637 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/index.html - -
+2024-02-29 23:25:36.341 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - -
+2024-02-29 23:25:36.367 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - -
+2024-02-29 23:25:36.371 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 14.2503ms
+2024-02-29 23:25:36.372 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/index.html - - - 200 - text/html;charset=utf-8 738.3675ms
+2024-02-29 23:25:36.421 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.4237ms
+2024-02-29 23:25:36.740 +05:30  INF  Request starting HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - -
+2024-02-29 23:25:37.086 +05:30  INF  Request finished HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 346.3301ms
