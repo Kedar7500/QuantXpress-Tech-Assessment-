@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StockDataAPI.Services;
 
@@ -16,11 +17,11 @@ namespace StockDataAPI.Controllers
             _stockDataReader = stockDataReader;
             _logger = logger;
         }
-
+        [Authorize]
         [HttpGet("{symbol}")]
         public IActionResult GetLatestPrice([FromRoute] string symbol)
         {
-             symbol = symbol.Trim();
+             symbol = symbol.Trim(); // to remove both side spaces if with symbol
             _logger.LogInformation("Received symbol: {symbol}", symbol);
 
             //symbol = "BANKNIFTY28JUL2236800CE";

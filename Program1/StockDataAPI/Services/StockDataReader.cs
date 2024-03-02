@@ -10,7 +10,11 @@ namespace StockDataAPI.Services
     {
 
         private readonly ILogger<StockDataReader> _logger;
+        // using dictionary   
         private readonly Dictionary<string, (DateTime, float, float, float, float, int, int)> _stockData;
+
+        // implementing synchronization
+        private readonly object _lock = new object();
 
         public StockDataReader(ILogger<StockDataReader> logger)
         {
@@ -22,7 +26,7 @@ namespace StockDataAPI.Services
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _logger.LogInformation("StockDataReader background service is starting");
+            _logger.LogInformation(" background service is starting");
 
             var filePath = "Data/MDServerOHLCData_25072022_085347.csv";
 
@@ -34,6 +38,7 @@ namespace StockDataAPI.Services
 
                     while (!reader.EndOfStream)
                     {
+                        // parsing data 
                         var line = await reader.ReadLineAsync();
                         var parts = line.Split(',');
                         var symbol = parts[0];
@@ -45,10 +50,18 @@ namespace StockDataAPI.Services
                         var volume = int.Parse(parts[7]);
                         var oi = int.Parse(parts[8]);
 
+                        
+
                         _stockData[symbol] = (date, open, high, low, close, volume, oi);
 
+                        //_logger.LogInformation("Dictionary Contents:");
+                        //foreach (var kvp in _stockData)
+                        //{
+                        //    _logger.LogInformation($"Key: {kvp.Key}, Value: {kvp.Value}");
+                        //}
 
-                        //_logger.LogInformation($"Read and stored symbol: {symbol}");
+
+                       // _logger.LogInformation($"Read and stored symbol: {symbol}");
 
                         //_logger.LogInformation("Read data: symbol={symbol}, Date={Date}, Open={Open}, High={High}, Low={Low}, Close={Close}, Volume={Volume}, OI={OI}",
                         //symbol, date, open, high, low, close, volume, oi);
@@ -67,16 +80,19 @@ namespace StockDataAPI.Services
         {
             _logger.LogInformation($"Retrieving data for symbol: {symbol}, Type: {symbol.GetType()}");
 
-            if (_stockData.TryGetValue(symbol, out var data))
-            {
-                _logger.LogInformation($"Stock data: {data}");
-                return data;
-            }
-            else
-            {
-                _logger.LogInformation("Symbol not found, return null");
-                return null; // Symbol not found, return null
-            }
+            
+            
+                if (_stockData.TryGetValue(symbol, out var data))
+                {
+                    _logger.LogInformation($"Stock data: {data}");
+                    return data;
+                }
+                else
+                {
+                    _logger.LogInformation("Symbol not found");
+                    return null; 
+                }
+            
         }
     }
 }
